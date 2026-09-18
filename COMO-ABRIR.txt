@@ -1,0 +1,59 @@
+=====================================================
+          SISTEMA DEMO MULTI-NEGOCIO EN LA NUBE
+=====================================================
+
+FORMA MÁS FÁCIL (DOBLE CLIC):
+1. Haz doble clic en el archivo:
+   INICIAR-SISTEMA.bat
+2. Se abrirá la consola y tu navegador automáticamente en:
+   http://127.0.0.1:43147
+
+-----------------------------------------------------
+FORMA MANUAL (CMD / Terminal):
+1. Presiona Win + R, escribe "cmd" y Enter.
+2. Escribe:
+   cd C:\Users\Julio\Downloads\tresnube-demo
+   npm run dev
+3. Abre en el navegador:
+   http://127.0.0.1:43147
+
+-----------------------------------------------------
+DEMOS INCLUIDAS (Selector en la barra superior):
+
+1. COMERCIAL LALO (http://127.0.0.1:43147/)
+   - Ventas, Compras, Inventarios y 3 Usuarios en Red.
+2. LICORERÍA (http://127.0.0.1:43147/licoreria)
+   - POS rápido con escáner de código de barras (EAN/UPC).
+   - Catálogo, control de stock por botellas/latas y tickets.
+3. HOTEL & HOSPEDAJE (http://127.0.0.1:43147/hotel)
+   - Rack de habitaciones en vivo por colores (101, 102, Suite).
+   - Check-in con DNI, modalidad Noche/Horas, frigobar y Check-out.
+4. CAR WASH (http://127.0.0.1:43147/carwash)
+   - Pista con bahías en vivo, placas, comisiones de lavadores e insumos.
+5. LAVANDERÍA (http://127.0.0.1:43147/lavanderia)
+   - Recepción por Kilos y Prendas, tickets térmicos y entregas.
+6. PRÉSTAMOS & CRÉDITOS (http://127.0.0.1:43147/demo)
+   - Cartera de clientes, cronograma de cuotas y registro de cobros.
+7. ACABADOS & CERÁMICAS (http://127.0.0.1:43147/ceramicas)
+   - Cotizador por m², inventario por cajas, cotizaciones y PDF interno.
+8. FLORERÍA (http://127.0.0.1:43147/floreria)
+   - Pedidos, catálogo, agenda de eventos, delivery y caja.
+9. TEXTIL & CONFECCIONES (http://127.0.0.1:43147/textil)
+   - Producción, catálogo de telas, cotizador por metros, inventario y despacho.
+10. BOTICA (http://127.0.0.1:43147/botica)
+   - POS de medicamentos, códigos de barras, lotes, vencimientos y stock.
+   - Cobros simulados con Niubiz, Mercado Pago, Culqi y Stripe.
+11. MULTISERVICIOS (http://127.0.0.1:43147/callcenter)
+   - Panel de atención con cola de llamadas, clientes, agentes y seguimientos.
+   - Registro de resultados, notas y próxima fecha de contacto.
+12. CLÍNICA SPA (http://127.0.0.1:43147/spa)
+   - Agenda de citas, cabinas, profesionales, clientes y fichas con alergias.
+   - Tratamientos, estados de atención, adelantos, saldos y caja.
+13. BARBERÍA & FIDELIZACIÓN (http://127.0.0.1:43147/barberia)
+   - Tarjetas digitales Platinum y Diamond con sellos por visita.
+   - Escáner QR del barbero, premios liberados y automatizaciones por WhatsApp.
+
+-----------------------------------------------------
+Todos los datos se guardan en el navegador (localStorage).
+Usa el botón "Restaurar datos" para reiniciar los ejemplos cuando gustes.
+Los documentos de Cerámicas son internos y se pueden imprimir o guardar como PDF desde el navegador.
